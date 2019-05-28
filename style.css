@@ -1,0 +1,94 @@
+* {
+    padding:0;
+    margin:0;
+}
+#main-bg {
+    display: table;
+    width: 100%;
+    height: 100vh;
+    padding: 100px 0;
+    color: white;
+    background: url(montanha.jpg) no-repeat bottom center scroll;
+    background-position: 30% 45%;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#login-box{
+    background-color:whitesmoke;
+    width: 260px;
+    height: 370px;
+    border-radius: 20px;
+    margin: 140px auto 0px;
+    opacity: 0.85;
+}
+
+#login-top{
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#000000+0,000000+100&0.65+0,0+100 */
+    /* background: -moz-linear-gradient(top,  rgba(0,0,0,0.65) 0%, rgba(0,0,0,0) 100%); FF3.6-15
+    background: -webkit-linear-gradient(top,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); Chrome10-25,Safari5.1-6
+    background: linear-gradient(to bottom,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=0 ); IE6-9 */
+
+    width: 260px;
+    height: 50px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    text-align: center;
+    font:bold 20px/45px Arial sans-serif;
+    /* border-bottom: solid #bfc3c5;
+    box-shadow: 1px 0px 3px rgb(179, 177, 177);
+    text-shadow: 1px 0px 0.5px white; */
+    color: #4d3b70;
+    opacity: 1;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#admin{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #4d3b70;
+    margin-left: 10px;
+}
+
+#senha{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #4d3b70;
+    margin-left: 10px;
+}
+
+.form-check-label{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #4d3b70;
+}
+
+.btn-outline-dark{
+    margin-left: 170px;
+    margin-top: -10px;
+}
+
+.form-check-label{
+    margin-left: 10px;
+}
+
+#exampleCheck1{
+    margin-left: -10px;
+}
+
+#exampleInputPassword1{
+    width: 240px;
+    margin: auto;
+}
+
+#exampleInputEmail1{
+    width: 240px;
+    margin: auto;
+}
+
+#emailHelp{
+    width: 240px;
+    margin: auto;
+}
+
+#navbar{
+    margin-top: -100px;
+}
